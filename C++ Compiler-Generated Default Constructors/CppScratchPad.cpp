@@ -4,35 +4,71 @@ using std::cout;
 using std::endl;
 using std::string;
 
+// --------------------------------------- C++ Compiler-Generated Default Constructors -----------------------------------------
+//ref link:https://www.youtube.com/watch?v=NxPPSegdilc&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // ------------------------------- C++ Structs vs Classes -------------------------------
 //ref link:https://www.youtube.com/watch?v=3LHmBMdKkyI&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=4
 
 // C++ default accessability 
 
 //struct Mytype		// defaults to public
-class Mytype
-//class Person	// defaults to private
-{
-public:		// required for class Mytype which is private
-	void foo() {}
-	//Person()		// Constructor 
-	//{
-	//	cout << "Person()" << endl;
-	//}
-	//~Person()				// Destructor
-	//{
-	//	cout << "~Person()" << endl;
-	//}
-};
-
-void main()
-{
-	Mytype instance;
-	instance.foo();		// error in class Mytype which is a private
-	//cout << "Before the scoped block" << endl;
-	//Person person;
-	//cout << "After the scoped block" << endl;
-}
+//class Mytype
+////class Person	// defaults to private
+//{
+//public:		// required for class Mytype which is private
+//	void foo() {}
+//	//Person()		// Constructor 
+//	//{
+//	//	cout << "Person()" << endl;
+//	//}
+//	//~Person()				// Destructor
+//	//{
+//	//	cout << "~Person()" << endl;
+//	//}
+//};
+//
+//void main()
+//{
+//	Mytype instance;
+//	instance.foo();		// error in class Mytype which is a private
+//	//cout << "Before the scoped block" << endl;
+//	//Person person;
+//	//cout << "After the scoped block" << endl;
+//}
 
 
 
