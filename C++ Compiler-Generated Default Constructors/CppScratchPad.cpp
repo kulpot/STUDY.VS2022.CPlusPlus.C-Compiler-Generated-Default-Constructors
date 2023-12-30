@@ -17,7 +17,7 @@ public:
 void main()
 {
 	Cow cow;
-	cout << cow.mooCount << endl; //error
+	cout << cow.mooCount << endl; //error: cebug check, not error: in release
 }
 
 
