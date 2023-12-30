@@ -4,8 +4,10 @@ using std::cout;
 using std::endl;
 using std::string;
 
-// --------------------------------------- C++ Compiler-Generated Default Constructors -----------------------------------------
+// ------------------------------ C++ Compiler-Generated Default Constructors -----------------------------------------
 //ref link:https://www.youtube.com/watch?v=NxPPSegdilc&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=5
+
+// parameter list constructor - takes no argument, a default constructor, constructor that takes no constructor
 
 class Cow {
 public:
@@ -14,7 +16,7 @@ public:
 
 void main()
 {
-
+	Cow cow;
 }
 
 
