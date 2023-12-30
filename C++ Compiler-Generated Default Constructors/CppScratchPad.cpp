@@ -12,11 +12,14 @@ using std::string;
 class Cow {
 public:
 	int mooCount;
+	//Cow(){}			// initialize none parameter constructor:output:-858993460
+	Cow(int value) {}		// initialize parameterConstructor with argument:
 };
 
 void main()
 {
-	Cow cow;
+	//Cow cow;
+	Cow cow(5);
 	cout << cow.mooCount << endl; //error: cebug check, not error: in release
 }
 
