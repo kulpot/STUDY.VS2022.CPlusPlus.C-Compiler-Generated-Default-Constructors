@@ -17,6 +17,7 @@ public:
 void main()
 {
 	Cow cow;
+	cout << cow.mooCount << endl; //error
 }
 
 
