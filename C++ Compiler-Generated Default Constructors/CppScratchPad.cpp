@@ -7,6 +7,15 @@ using std::string;
 // --------------------------------------- C++ Compiler-Generated Default Constructors -----------------------------------------
 //ref link:https://www.youtube.com/watch?v=NxPPSegdilc&list=PLRwVmtr-pp05LyV3bYHwrFacNSNjbUqS6&index=5
 
+class Cow {
+public:
+	int mooCount;
+};
+
+void main()
+{
+
+}
 
 
 
